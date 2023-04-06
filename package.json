@@ -1,0 +1,14 @@
+{
+    "name": "python-transcriber",
+    "version": "0.1.0",
+    "description": "Watches a folder for new audio files and transcribes them into neatly formatted text files",
+    "license": "UNLICENSED",
+    "main": "transcriber.py",
+    "repository": { 
+        "type": "git", 
+        "url": "https://github.com/danieltinley/python-transcriber.git" 
+    } ,
+    "dependencies": {
+        "openai-whisper": "https://github.com/openai/whisper.git"
+    }
+}
